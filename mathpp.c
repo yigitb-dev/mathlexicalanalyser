@@ -56,6 +56,8 @@ void token_pars(char *usr_input, TokenArray *token_array) {
   }
 }
 
+int compile_tokens() { return 0; }
+
 int main(void) {
 
   char temp[100];
