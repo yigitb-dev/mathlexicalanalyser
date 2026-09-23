@@ -1,0 +1,2 @@
+Stop atoi from running in for loop
+Stop using structs in indecisive form always define them with a structure.

@@ -21,7 +21,7 @@ void token_pars(char *usr_input, TokenArray *token_array) {
 
   while (start < len) {
     int i;
-    Token token;
+    Token token = {0, 0, '\0'};
     for (i = start; i < len; i++) {
       if (usr_input[i] == ' ' || usr_input[i] == '\n') {
         break;
@@ -56,7 +56,10 @@ void token_pars(char *usr_input, TokenArray *token_array) {
   }
 }
 
-int compile_tokens() { return 0; }
+int compile_tokens(TokenArray *token_array) {
+
+  // In developement
+}
 
 int main(void) {
 
